@@ -1,0 +1,31 @@
+{
+  "format_on_save": "on",
+  "languages": {
+    "JSON": {
+      "formatter": {
+        "language_server": {
+          "name": "biome"
+        }
+      }
+    },
+    "TypeScript": {
+      "formatter": {
+        "language_server": {
+          "name": "biome"
+        }
+      },
+      "code_actions_on_format": {
+        "source.organizeImports.biome": true
+      }
+    },
+    "Zig": {
+      "tab_size": 4,
+      "formatter": [
+        {
+          "code_action": "source.organizeImports"
+        },
+        "language_server"
+      ]
+    }
+  }
+}
